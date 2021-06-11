@@ -4,20 +4,12 @@ University Based course on Python Programming
 
 List of topics covered during classes
 
-1  Regex and JSON uses
-
-2. Data visualisation and exploration
-3. 
-4. Pytest Framework
-5. 
-6. Sending Email
-7. 
-8. Web Scraping
-9. 
-10. Image processing
-11. 
-12. Interacting with Databases
-13. 
-14. Interacting with CSV and Docs files
-15. 
-16. Gui Programming
+1. Regex and JSON
+2. Web Scraping
+3. Image Processing
+4. Sending E-Mails
+5. GUI programming
+6. Interacting with databases
+7. Interacting with CSV and docs file
+8. Data visualisation and Exploration
+9. Pytest Framework
