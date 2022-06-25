@@ -19,3 +19,15 @@ today = datetime.date.today()
 first = today.replace(day=1)
 lastMonth = first - datetime.timedelta(days=1)
 print(lastMonth.strftime("%Y.%m"))
+
+
+
+
+------ Download Picture function
+
+def downloadPic():
+    picLink = "https://upload.wikimedia.org/wikipedia/commons/b/b5/Warsaw_rice_mn_sign.JPG"
+    response = requests.get(picLink)
+    file = open("boardsign.jpg", "wb")
+    file.write(response.content)
+    file.close()
